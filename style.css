@@ -1,0 +1,227 @@
+/*
+Theme Name:     Web 3 
+Theme URI:      https://openlab.citytech.cuny.edu/web-3-spring-2017/
+Description:    Web 3 Theme
+Author:         Aaron McIntosh
+Author URI:     http://www.early-adopter.com
+Version:        0.1.0
+-------------------------------------------------------------- */
+
+
+
+
+
+#container{
+    margin: 30px 50px 30px 50px;
+    border: 2px solid #00A;
+    background-color:#FFF;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+
+body{
+    background-color: #FFF;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+/*Code for border around posts & pages*/
+.hentry, #page { border: 1px solid #000; }
+
+
+/*Universal selector*/
+* {font-family: Verdana, Geneva, sans-serif;}
+
+
+
+/* style for sidebar-right.php */
+div#rightsidebar {
+width:20%;
+height: 100%;
+background-color: #FFFFFF;
+float: right;
+}
+
+/*style for header.php */
+div#main {
+width:70%;
+float:left;
+}
+
+footer#colophon {
+clear:both;
+}
+
+ul#sidebarrightul {
+list-style-type: none;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+ul#sidebarrightul li h2 {
+width:100%;
+text-align:center;
+background-color: #000000;
+color:#ffffff;
+}
+
+
+
+/* styles for category.php */
+
+article.catarchivearticle {
+background-color:#FFFFFF;
+}
+
+ul.archivelist {
+list-style-type: none;
+background-color:#FFFFFF;
+}
+
+ul.archivelist li {
+padding-bottom: 30px;
+}
+
+div.rightcol {
+float:left;
+width:60%;
+padding:1%;
+background-color:#FFFFFF;
+}
+div.leftcol {
+float:left;
+width:20%;
+padding:1% 1% 1% 0;
+background-color:#FFFFFF;
+}
+
+div.excerptdiv {
+width:100%;
+float:none;
+clear:both;
+background-color:#FFFFFF;
+}
+
+/* end styles for category.php */
+
+/* style for single post template */
+div#authorinfo {
+width:50%;
+background-color:#000000;
+color:#ffffff;
+padding:20px;
+}
+
+div#contentbox {
+width: 85%;
+background-color: #aaaaff;
+}
+
+div#catlist {
+background-color:#eeeeee;
+}
+
+h3#authorname {
+font-size: 13px;
+font-style: italic;
+color:#000000;
+}
+
+/* end style for single post template */
+
+/* style main menu */
+nav{
+border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin-top: 30px;
+    padding:0;
+    text-align:center;
+
+}
+
+nav ul {
+width:100%;
+width: auto;
+background-color:#E82C0C;
+height:50px;
+margin:0px 0px 0px 0px;
+
+}
+
+nav ul li {
+height:30px;
+width:120px;
+background-color:#ffffff;
+float:left;
+list-style-type:none;
+padding:10px;
+border:1px solid #eeeeee;
+}
+
+nav ul li:hover {
+background-color:#E82C0C;
+}
+
+nav ul li a {
+text-decoration:none;
+}
+
+nav ul li ul {
+display:none;
+
+}
+
+nav ul li:hover ul.sub-menu {
+display:block;
+width:200px;
+min-width:200px;
+margin:10px 0px 10px 0;
+padding:10px;
+height:auto;
+position:relative;
+left: -20px;
+background-color:#999999;
+box-shadow: 3px 3px 4px #555555;
+z-index: 3333;
+}
+
+nav ul li:hover ul li {
+display:block;
+float:none;
+}
+
+nav ul li:hover ul li a {
+text-decoration:none;
+background-color:#eeeeee;
+display:block;
+}
+
+/* end style main menu */
+#altPosts{
+ background: black;
+}
+#altPosts2{
+ background: purple;
+}
+
+.altPosts p,
+.altPosts h2,
+.altPosts a{
+ color: white;
+}
+
+/*Image replacement trick for logo placement*/
+        
+    h3.leahy {
+      width: 300px;
+      padding: 140px 0 0 0;
+      height: 0;
+      background: url("LOGO.png")no-repeat;
+      overflow: hidden;
+    }
+

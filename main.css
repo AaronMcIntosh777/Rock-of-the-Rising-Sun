@@ -1,0 +1,305 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+
+BELOW ARE MY CODES
+
+*/
+
+body{
+    background-color:black;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-family: 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    }
+
+nav {
+    background-color:black;
+    color: aliceblue;
+    padding: .3% 0;
+    font-size: 1.25em;
+    top: 0px;
+}
+
+/*
+
+The nav li box model parameters below are written in shorthand:
+
+TOP, RIGHT, BOTTOM, LEFT
+
+*/
+
+nav li{margin:auto;
+      
+    }
+    
+
+nav ul {
+       display: flex;
+       justify-content:flex-start;
+}
+
+li:hover{
+    color:aqua;
+    
+}
+    
+
+
+nav a{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+.pagenav {width: 40%;
+    margin-left: 25%;
+    text-decoration: underline;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.bold {font-weight: 600;}
+
+body *{
+    position: relative;
+}
+
+#container {padding:2px;
+            margin-top: 5%;
+            margin-left:5%;
+            padding-bottom: 40px;
+            flex: auto;
+            box-sizing: border-box;
+            border-style:dotted;
+            border-color:blanchedalmond;
+            width:90%;
+            font: arial;
+            line-height: 1.2em;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+}
+
+    
+.lessons {width: 60%;
+          margin-top: 5%;
+          margin-left:10%;
+          margin-bottom:10%; 
+    
+
+}
+
+.welcomeBox {max-width: 40%;
+    
+}
+    
+    
+
+
+.imgResize { max-width: inherit;
+           
+    
+}
+
+    
+
+.side {display: flex;
+       justify-content: flex-end;
+}
+    
+
+  
+
+/*
+
+Position properties one can use are: 
+
+static
+relative
+absolute
+fixed
+sticky
+
+However, these properties used by themselves is insufficient. 
+
+top, bottom, left and right must be used in conjunction(attachment properties), as well as Z-index.
+
+*/
+
+
+.header {background-image: url(../images/guitarsbanner.jpg);
+         background-size: cover;
+         flex: auto;
+         justify-content: center;
+         max-height: 100%;
+         text-align: center;
+         padding: 0;
+         margin: 0;}
+    
+
+
+
+
+.footer {text-align: center;
+         font-size: .75em;}
+    
+
+
+
+.sideBar{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: .5%;
+    position: absolute;
+    top: 50%;
+    left: 0%;}
+
+
+
+
+.filterPos {box-sizing: border-box;
+            position: absolute;
+            top: 50%;
+            margin-left:5%;}
+
+
+
+
+.form {box-sizing: border-box;
+    width: 40%;
+    padding: 15px;
+    position: absolute;
+    border-style: dotted;
+    border-color:aliceblue;
+    top: 45%;
+    margin-left: 10%;}
+
+
+
+
+.sidebySide {display: flex;
+             justify-content: space-between;
+            flex-wrap: wrap;}
+
+
+
+
+
+.boxedGrid {box-sizing: border-box;
+            border-radius: 2%;
+            width: 70%;
+            flex: auto;
+            margin-left: 25%;
+            margin-top: 5%;
+            padding: 0%;}
+
+
+
+.boxedGrid2 {box-sizing: border-box;
+            border-radius: 1%;
+            width: 60%;
+            flex: auto;
+            margin-left: 40%;
+            margin-top: 5%;
+            padding: 0%;}
+
+
+
+.boximgResize {max-width: 25%;}
+
+
+
+
+.imgResize {width: 100%;}
+
+
+
+
+.active{
+    color: rgb(0,0,0);}
+
+
+
+
+.contact {font-size: 2em;
+        padding: 15px;
+        margin-left: 10%;}
+
+
+
+.h1 {font-size: 3em;
+     text-align: center;}
+
+
+
+.h2 {font-size: 1.75em;}
+
+
+
+h3* {font-size: 2em;}
+
+
+
+.onequarterText {font-size: 1em;
+    text-align: center;}
+                
+
+  
+             
+    
+
+
+.quarterBox {width: 20%;}
